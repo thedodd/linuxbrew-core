@@ -19,6 +19,7 @@ class Sratoolkit < Formula
 
   on_linux do
     depends_on "pkg-config" => :build
+    depends_on "utf8proc"
 
     resource "which" do
       url "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/File-Which-1.23.tar.gz"
